@@ -3,7 +3,7 @@ import { Post } from "./PostComponent"
 
 export function Feed(){
     return (
-        <div className="flex flex-col justify-center items-center w-screen h-screen border-2 m-2">
+        <div className="flex flex-col justify-center items-center w-screen h-screen border-2 ">
             <div className="overflow-y-scroll">
                 <Post 
                 name="John Doe"

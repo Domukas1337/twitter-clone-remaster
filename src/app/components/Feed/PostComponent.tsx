@@ -14,7 +14,7 @@ export function Post({name, text, profilePic, likedCount, retweetCount}: {name: 
                 {text}
             </div>
             <hr />
-            <div className="flex flex-row text-gray-200 gap-2 my-2">
+            <div className="flex flex-row text-gray-200 gap-2 mt-2">
                 <button className="border-2 rounded border-purple-400 p-2 hover:bg-purple-400 transition">{likedCount} likes</button>
                 <button className="border-2 rounded border-white p-2 hover:bg-white hover:text-black transition">{retweetCount} retweets</button>
             </div>
